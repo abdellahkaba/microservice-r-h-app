@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4495af47-9886-4a78-9256-38f8d5794c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48ec9d0d-f0f2-41e8-936f-aa82deadc40e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48ec9d0d-f0f2-41e8-936f-aa82deadc40e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48ec9d0d-f0f2-41e8-936f-aa82deadc40e/storage_v2/_src_/schema/authservicedb.S_m5jQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48ec9d0d-f0f2-41e8-936f-aa82deadc40e/storage_v2/_src_/schema/authservicedb.S_m5jQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716635290037</updated>
       <workItem from="1716635291105" duration="826000" />
-      <workItem from="1716679694775" duration="20314000" />
+      <workItem from="1716679694775" duration="20780000" />
     </task>
     <servers />
   </component>
