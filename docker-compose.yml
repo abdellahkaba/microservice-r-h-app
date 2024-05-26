@@ -1,11 +1,11 @@
 version: '3.8'
-
 services:
   mysql:
     image: mysql:8.0
     container_name: mysql-service
     environment:
       MYSQL_ROOT_PASSWORD: Kaba987k@
+      MYSQL_DATABASE: authServicedb  # Ajout de la base de données à créer
     ports:
       - "43306:3306"
     volumes:
@@ -13,22 +13,26 @@ services:
     networks:
       - mysql_net
     restart: unless-stopped
+
   authenticate-service:
     build: ./authenticate-service
     container_name: authenticate-service
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/authServicedb
       SPRING_DATASOURCE_USERNAME: root
-      SRPING_DATASOURCE_PASSWORD: Kaba987k@
+      SPRING_DATASOURCE_PASSWORD: Kaba987k@
+      SERVER_PORT: 9191
     ports:
-      - '9191:9191'
+      - "9191:9191"
     depends_on:
       - mysql
     networks:
       - mysql_net
+
 networks:
   mysql_net:
     driver: bridge
+
 volumes:
   mysql_data:
 
