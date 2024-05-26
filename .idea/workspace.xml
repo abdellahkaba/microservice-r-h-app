@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4495af47-9886-4a78-9256-38f8d5794c6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/services/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/services/JwtService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716635290037</updated>
       <workItem from="1716635291105" duration="826000" />
-      <workItem from="1716679694775" duration="20780000" />
+      <workItem from="1716679694775" duration="21203000" />
     </task>
     <servers />
   </component>
