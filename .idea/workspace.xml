@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4495af47-9886-4a78-9256-38f8d5794c6d" name="Changes" comment="" />
+    <list default="true" id="4495af47-9886-4a78-9256-38f8d5794c6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +18,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/authenticate-service" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -66,7 +71,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "<unknown>",
     "jdk.selected.JAVA_MODULE": "20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716635290037</updated>
       <workItem from="1716635291105" duration="826000" />
-      <workItem from="1716679694775" duration="12335000" />
+      <workItem from="1716679694775" duration="12991000" />
     </task>
     <servers />
   </component>
