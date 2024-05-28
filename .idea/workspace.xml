@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4495af47-9886-4a78-9256-38f8d5794c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/dtos/AuthRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/dtos/JwtResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/dtos/RefreshTokenRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/token/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/token/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/token/TokenType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/controllers/AuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate-service/authenticate-service/src/main/java/com/kaba/authenticateservice/services/JwtService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -117,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716635290037</updated>
       <workItem from="1716635291105" duration="826000" />
-      <workItem from="1716679694775" duration="41303000" />
+      <workItem from="1716679694775" duration="55202000" />
     </task>
     <servers />
   </component>
