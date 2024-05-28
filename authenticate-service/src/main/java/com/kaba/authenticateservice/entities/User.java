@@ -1,6 +1,7 @@
 package com.kaba.authenticateservice.entities;
 
 import jakarta.persistence.*;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.security.core.GrantedAuthority;
@@ -10,24 +11,48 @@ import java.util.Collection;
 import java.util.Date;
 
 @Table(name = "users")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false)
     private Integer id;
+
     @Column(nullable = false)
     private String fullName;
+
     @Column(unique = true, length = 100, nullable = false)
     private String email;
+
     @Column(nullable = false)
     private String password;
+
     @CreationTimestamp
     @Column(updatable = false, name = "created_at")
     private Date createdAt;
+
     @UpdateTimestamp
     @Column(name = "updated_at")
     private Date updatedAt;
+
+    // Méthodes personnalisées pour permettre le chaînage
+    public User setFullName(String fullName) {
+        this.fullName = fullName;
+        return this;
+    }
+
+    public User setEmail(String email) {
+        this.email = email;
+        return this;
+    }
+
+    public User setPassword(String password) {
+        this.password = password;
+        return this;
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -36,12 +61,12 @@ public class User implements UserDetails {
 
     @Override
     public String getPassword() {
-        return null;
+        return password;  // Retourner le mot de passe actuel
     }
 
     @Override
     public String getUsername() {
-        return null;
+        return email;  // Utiliser l'email comme nom d'utilisateur
     }
 
     @Override
